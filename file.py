@@ -1,19 +1,16 @@
 def Writetofile(lns) :
-        wr=open("C:/Users/Moon/Desktop/Witing_from_py.txt","w+t")
-        for ln in lns:
-         wr.writelines(ln)
-         
-print("finshed writing to file..")
+        try:
+            wr=open("C:/Users/Moon/Desktop/Witi_rng_from_py.txt","r")
+            for ln in lns:
+                 wr.writelines(ln)
+        except Exception as ex :
+           return print( ex)
+
+        print("finshed writing to file..")
+
+                 
 
 fl=open("C:/Users/Moon/Desktop/Message_Cannot.txt","r")
-
 lines=fl.readlines()
 
-Writetofile(lines)
-
-
-
-
-
-
-   # print(ln)
+print(Writetofile(lines))
