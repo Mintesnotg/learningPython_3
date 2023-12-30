@@ -29,7 +29,7 @@ def inrange (values):
 
     for i in range(len(values)):
         if(i%2==0):
-         indexes.append(i)
+         yield i
         else : continue
     return indexes
 
@@ -42,7 +42,7 @@ def cont_(values):
 
         if(values[i]<0) :
             continue
-        else : var.append(values[i])
+        else : yield values[i]
     print("-- changing list--")
     var=[]
     return var
@@ -56,7 +56,7 @@ def break_(s):
     for val in s:
         if(val<0):
          break
-        else : brk.append(val)
+        else : yield val
     
     return brk
 
