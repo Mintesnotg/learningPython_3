@@ -5,8 +5,8 @@ def comp_code (n):
 print(comp_code(10))
 
 def squares(n):
+    
+    sqrs=  {s: s*s for s in range (1,n+1) }
 
-    sqrs= sum( {s*s for s in range (1,n+1) })
-
-    return sqrs
+    return sqrs.keys()
 print(squares(10))
