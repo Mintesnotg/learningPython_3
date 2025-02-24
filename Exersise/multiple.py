@@ -2,13 +2,15 @@ def is_multiple ( n ,m ):
    x = True if(n %m==0) else False
    return x
 
+def Is_Even (n):
 
-def isEven(n):
+   lbs= n & 1
 
- lsb= n & 1
- return lsb
+   return lbs
+
 
 
 
 print( is_multiple(4,2))
-print( isEven(21))
+print( Is_Even(43))
+
