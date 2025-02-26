@@ -15,3 +15,8 @@ print("Original value of x :" , x)
 y=3.14
 
 print(" IS x the same object as y" , x is y)
+
+collections= [( 'tes' , 'irush' )]
+
+expo=2**2
+print('value',expo )
