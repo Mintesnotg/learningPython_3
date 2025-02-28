@@ -1,3 +1,10 @@
+# from math import asinh
+
+import os
+
+
+from concise_code import compcondition
+import math
 
 grads= list (input("input your grade"))
 def compute_gpa(grads, points):
@@ -7,6 +14,8 @@ def compute_gpa(grads, points):
         if(g in points):
             numb_courses+=1
             count_points+=points[g]
+            
+            
     
     
     
@@ -20,6 +29,8 @@ def compute_gpa(grads, points):
 points = {'A+': 4.0, 'A': 4.0, 'A-': 3.67, 'B+': 3.33,
           'B': 3.0, 'B-': 2.67, 'C+': 2.33, 'C': 2.0,
           'C-': 1.67, 'D+': 1.33, 'D': 1.0, 'F': 0.0}
+print(F" imported functionn result  {compcondition(10)}")
+print( f" os result {os.getcwd()}")
 
 print(f' your grade is -- {compute_gpa(grads,points)}')
 

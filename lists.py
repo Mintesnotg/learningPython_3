@@ -7,5 +7,11 @@ print(lists)
 
 var=tuple([17,20])
 
+
 print(var)
 
+cities= ["Addis","Legos","Cairo"]
+cities.sort()
+
+for city in cities:
+    print(city)
