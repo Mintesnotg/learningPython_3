@@ -7,6 +7,6 @@ def allfactors(n):
     except Exception  as ex:
        raise  str( ex) 
     
-print( f" factors  { set( allfactors(100))}" )
+print( f" factors  { set(allfactors(100))}" )
 
 
