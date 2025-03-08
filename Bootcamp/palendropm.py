@@ -19,4 +19,4 @@ def is_palindrome_for(input_string: str):
 
 
 
-print(is_palindrome_for("race a car"))
+print(is_palindrome_for("ትኩስ ብስኩት"))
